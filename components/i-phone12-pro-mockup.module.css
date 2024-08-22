@@ -1,0 +1,61 @@
+.screenMockupReplaceFill {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+  flex-shrink: 0;
+  margin-top: -4.2px;
+}
+.statusBarWrapperAction {
+  align-self: stretch;
+  height: 595.4px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+}
+.iphoneMockupIcon,
+.mockupWrap {
+  position: absolute;
+  overflow: hidden;
+}
+.mockupWrap {
+  height: 95.31%;
+  width: 89.73%;
+  top: 2.23%;
+  right: 5.25%;
+  bottom: 2.46%;
+  left: 5.02%;
+  background-color: var(--base-white);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-91xl);
+}
+.iphoneMockupIcon {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0.23%;
+  left: 0;
+  max-width: 100%;
+  max-height: 100%;
+  z-index: 2;
+}
+.iphone12ProMockup {
+  height: 601px;
+  width: 295px;
+  position: absolute;
+  margin: 0 !important;
+  bottom: -221px;
+  left: 140px;
+  filter: drop-shadow(29px 29px 58.03px rgba(16, 24, 40, 0.2))
+    drop-shadow(14.5px 14.5px 29.01px rgba(16, 24, 40, 0.08));
+  z-index: 1;
+}

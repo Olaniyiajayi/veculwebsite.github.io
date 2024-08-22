@@ -1,0 +1,19 @@
+.home {
+  height: 4.5px;
+  width: 121.5px;
+  position: relative;
+  border-radius: 90.66px;
+  background-color: var(--color-black);
+}
+.iphoneMockupHome {
+  width: 340px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: var(--padding-lgi) var(--padding-xl) var(--padding-5xs-3)
+    var(--padding-2xl);
+  box-sizing: border-box;
+  flex-shrink: 0;
+  max-width: 129%;
+}

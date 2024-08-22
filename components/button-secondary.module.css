@@ -1,0 +1,5 @@
+.buttonSecondary {
+  align-self: stretch;
+  width: 175px;
+  flex-shrink: 0;
+}

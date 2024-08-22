@@ -1,0 +1,118 @@
+.quote {
+  margin: 0;
+  width: 1024px;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: -0.02em;
+  line-height: 44px;
+  font-weight: 500;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+}
+.avatarIcon {
+  width: 64px;
+  height: 64px;
+  border-radius: var(--br-181xl);
+  object-fit: cover;
+}
+.authorName,
+.supportingText {
+  align-self: stretch;
+  position: relative;
+}
+.authorName {
+  line-height: 28px;
+  font-weight: 500;
+}
+.supportingText {
+  font-size: var(--text-md-normal-size);
+  line-height: 24px;
+  color: var(--gray-200);
+}
+.avatarAndText,
+.textAndSupportingText {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+}
+.avatarAndText {
+  align-items: center;
+  gap: var(--gap-base);
+}
+.starIcon {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 20px;
+}
+.attribution,
+.quoteAndAttribution,
+.stars {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.stars {
+  flex-direction: row;
+  gap: var(--gap-9xs);
+}
+.attribution,
+.quoteAndAttribution {
+  align-self: stretch;
+  flex-direction: column;
+}
+.attribution {
+  gap: var(--gap-base);
+  font-size: var(--text-lg-medium-size);
+}
+.quoteAndAttribution {
+  gap: var(--gap-13xl);
+  max-width: 100%;
+}
+.paginationContainer {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+}
+.container,
+.content,
+.quoteSection {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.content {
+  flex: 1;
+  flex-direction: column;
+  padding: 0 var(--padding-49xl);
+  gap: var(--gap-21xl);
+}
+.container,
+.quoteSection {
+  flex-direction: row;
+}
+.container {
+  flex: 1;
+  padding: 0 var(--padding-13xl);
+}
+.quoteSection {
+  align-self: stretch;
+  background-color: var(--primary-900);
+  overflow: hidden;
+  padding: var(--padding-77xl) var(--padding-61xl);
+  text-align: center;
+  font-size: var(--display-md-medium-size);
+  color: var(--base-white);
+  font-family: var(--paragraph-small-semibold);
+}

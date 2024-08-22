@@ -1,0 +1,142 @@
+.heading,
+.supportingText {
+  align-self: stretch;
+  position: relative;
+}
+.heading {
+  margin: 0;
+  font-size: inherit;
+  letter-spacing: -0.02em;
+  line-height: 60px;
+  font-weight: 600;
+  font-family: inherit;
+}
+.supportingText {
+  font-size: var(--text-xl-normal-size);
+  line-height: 30px;
+  color: var(--gray-500);
+}
+.headingAndCheckItems {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-13xl);
+}
+.dividers {
+  height: 1px;
+  flex: 1;
+  position: relative;
+  border-top: 1px solid var(--color-lightgray);
+  box-sizing: border-box;
+}
+.supportingText1 {
+  position: relative;
+  line-height: 30px;
+  display: inline-block;
+  min-width: 14px;
+  flex-shrink: 0;
+}
+.secondaryAction {
+  width: 264px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  gap: var(--gap-xs);
+}
+.mobileAppStoreBadge,
+.mobileAppStoreBadge1 {
+  align-self: stretch;
+  width: 132px;
+  position: relative;
+  border-radius: var(--br-6xs);
+  max-height: 100%;
+  mix-blend-mode: normal;
+  min-height: 44px;
+}
+.mobileAppStoreBadge1 {
+  width: 148.5px;
+  border-radius: var(--br-8xs);
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.actions,
+.actions1,
+.content {
+  display: flex;
+  justify-content: flex-start;
+}
+.actions1 {
+  flex-direction: row;
+  align-items: flex-start;
+  gap: var(--gap-xs);
+}
+.actions,
+.content {
+  flex-direction: column;
+}
+.actions {
+  width: 292.5px;
+  height: 136px;
+  align-items: center;
+  gap: var(--gap-6xs);
+  text-align: center;
+  font-size: var(--paragraph-small-semibold-size);
+  color: var(--gray-500);
+}
+.content {
+  flex: 1;
+  align-items: flex-start;
+  gap: var(--gap-21xl);
+  min-width: 374px;
+  max-width: 100%;
+}
+.blobIcon {
+  height: 480px;
+  width: 532px;
+  position: absolute;
+  margin: 0 !important;
+  bottom: -160px;
+  left: calc(50% - 266px);
+}
+.content1,
+.ctaSection,
+.iphoneAction {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.content1 {
+  align-self: stretch;
+  height: 400px;
+  flex-direction: row;
+  position: relative;
+}
+.ctaSection,
+.iphoneAction {
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.iphoneAction {
+  flex: 1;
+  flex-direction: column;
+  padding: var(--padding-20xl) 0 0;
+  min-width: 374px;
+}
+.ctaSection {
+  align-self: stretch;
+  background-color: var(--base-white);
+  overflow: hidden;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: var(--padding-77xl) var(--padding-93xl);
+  gap: var(--gap-45xl);
+  text-align: left;
+  font-size: var(--display-lg-semibold-size);
+  color: var(--gray-900);
+  font-family: var(--paragraph-small-semibold);
+}

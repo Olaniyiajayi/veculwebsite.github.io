@@ -1,0 +1,10 @@
+.input {
+  border: 0;
+  background-color: transparent;
+  height: 56px;
+  flex: 1;
+  font-family: var(--paragraph-small-semibold);
+  font-size: var(--paragraph-small-semibold-size);
+  color: var(--color-darkgray);
+  min-width: 207px;
+}

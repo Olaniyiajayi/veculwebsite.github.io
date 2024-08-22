@@ -1,0 +1,25 @@
+.paginationDotIndicator,
+.paginationDotIndicator1,
+.paginationDotIndicator3 {
+  height: 10px;
+  width: 10px;
+  position: relative;
+  border-radius: var(--br-7xs);
+  background-color: var(--base-white);
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.paginationDotIndicator1,
+.paginationDotIndicator3 {
+  background-color: var(--gray-500);
+}
+.paginationDotIndicator3 {
+  display: none;
+}
+.paginationDotGroup {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}

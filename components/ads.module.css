@@ -1,0 +1,104 @@
+.bgIcon {
+  height: 1695.8px;
+  width: 1695.8px;
+  position: absolute;
+  margin: 0 !important;
+  right: -775.8px;
+  bottom: -1162.8px;
+}
+.yourMarketplaceFor {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: -0.04em;
+  line-height: 120%;
+  font-weight: 700;
+  font-family: inherit;
+}
+.connectingOwnersRenters {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--text-xl-normal-size);
+  letter-spacing: -0.02em;
+  line-height: 150%;
+  color: var(--color-whitesmoke-100);
+}
+.buttonPrimaryParent,
+.innerContentWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.innerContentWrapper {
+  align-self: stretch;
+  flex-direction: column;
+  gap: var(--gap-base);
+}
+.buttonPrimaryParent {
+  width: 319px;
+  height: 55px;
+  flex-direction: row;
+  padding: 0;
+  box-sizing: border-box;
+  gap: var(--gap-3xl);
+}
+.contentWrapper,
+.macbookWrapper,
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.contentWrapper {
+  align-self: stretch;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+  flex-shrink: 0;
+  z-index: 1;
+}
+.macbookWrapper,
+.mainContainer {
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.mainContainer {
+  width: 612px;
+  justify-content: flex-start;
+  padding: var(--padding-59xl) 0 0;
+  min-width: 612px;
+  flex-shrink: 0;
+}
+.macbookWrapper {
+  width: 850.4px;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-4xs-2);
+}
+.ads2,
+.macbookWrapperParent {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.macbookWrapperParent {
+  width: 850.4px;
+  align-items: flex-end;
+  min-width: 850.4px;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.ads2 {
+  align-self: stretch;
+  background-color: var(--color-darkblue);
+  overflow: hidden;
+  align-items: flex-start;
+  padding: var(--padding-67xl) var(--padding-101xl) var(--padding-43xl);
+  box-sizing: border-box;
+  position: relative;
+  gap: var(--gap-lgi);
+  text-align: left;
+  font-size: var(--font-size-37xl);
+  color: var(--base-white);
+  font-family: var(--paragraph-small-semibold);
+}

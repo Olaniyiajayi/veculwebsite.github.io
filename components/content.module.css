@@ -1,0 +1,50 @@
+.heading {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: -0.02em;
+  line-height: 29px;
+  font-weight: 700;
+  font-family: inherit;
+}
+.neverMissA {
+  margin: 0;
+}
+.description {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--paragraph-small-semibold-size);
+  line-height: 145%;
+  color: var(--grey-600);
+}
+.text {
+  width: 384px;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--gap-xs);
+}
+.content,
+.input,
+.text {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.input {
+  width: 462px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: var(--gap-base);
+}
+.content {
+  align-self: stretch;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--gap-13xl);
+  text-align: center;
+  font-size: var(--font-size-5xl);
+  color: var(--grey-800);
+  font-family: var(--paragraph-small-semibold);
+}

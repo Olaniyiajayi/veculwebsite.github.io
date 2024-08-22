@@ -1,0 +1,78 @@
+.supportingText,
+.testimonialTitle {
+  align-self: stretch;
+  position: relative;
+}
+.testimonialTitle {
+  line-height: 30px;
+  font-weight: 600;
+}
+.supportingText {
+  font-size: var(--text-md-normal-size);
+  line-height: 24px;
+  color: var(--gray-500);
+}
+.textAndSupportingText {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs) 0 0;
+  gap: var(--gap-5xs);
+}
+.text {
+  height: 24px;
+  flex: 1;
+  position: relative;
+  line-height: 24px;
+  font-weight: 500;
+  display: inline-block;
+  white-space: nowrap;
+}
+.arrowRightIcon {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.buttonBase {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-6xs);
+}
+.button,
+.content,
+.featureText {
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.button {
+  width: 115px;
+  display: none;
+  flex-direction: row;
+  font-size: var(--text-md-normal-size);
+  color: var(--primary-700);
+}
+.content,
+.featureText {
+  display: flex;
+  max-width: 100%;
+}
+.content {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-xl);
+}
+.featureText {
+  align-self: stretch;
+  flex-direction: row;
+  text-align: left;
+  font-size: var(--text-xl-normal-size);
+  color: var(--gray-900);
+  font-family: var(--paragraph-small-semibold);
+}

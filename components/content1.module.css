@@ -1,0 +1,86 @@
+.logoIcon {
+  height: 32px;
+  width: 91.5px;
+  position: relative;
+}
+.contactUs,
+.helloraynauicom {
+  position: relative;
+  line-height: 145%;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 74px;
+  white-space: nowrap;
+}
+.helloraynauicom {
+  text-decoration: underline;
+  font-weight: 500;
+  color: var(--primary-400-base);
+  min-width: 129px;
+}
+.contactDetails {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  gap: var(--gap-6xs);
+}
+.followUs {
+  position: relative;
+  line-height: 145%;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 66px;
+  white-space: nowrap;
+}
+.fbIcon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  min-height: 24px;
+}
+.contactInfo,
+.icons,
+.socialInfo {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.contactInfo,
+.socialInfo {
+  align-items: center;
+  justify-content: flex-end;
+  gap: var(--gap-mini);
+}
+.contactInfo {
+  padding: 0 0 0 var(--padding-298xl);
+  box-sizing: border-box;
+  gap: var(--gap-37xl);
+  max-width: 100%;
+}
+.content,
+.content1 {
+  align-self: stretch;
+  display: flex;
+  max-width: 100%;
+}
+.content1 {
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0;
+  box-sizing: border-box;
+  gap: var(--gap-xl);
+}
+.content {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-12xl);
+  text-align: left;
+  font-size: var(--paragraph-small-semibold-size);
+  color: var(--grey-700);
+  font-family: var(--paragraph-small-semibold);
+}
